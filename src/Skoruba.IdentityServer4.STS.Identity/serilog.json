@@ -28,6 +28,14 @@
                     }
                 }
             }
+            // not working for Mac M1 as in time of writting this comment Sqlite.Core doesn't compile agains arm
+            // {
+            //     "Name": "SQLite",
+            //     "Args": {
+            //         "sqliteDbPath": "Log.sqlite",
+            //         "tableName": "Log"
+            //     }
+            // }
         ]
     }
 }
